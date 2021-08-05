@@ -42,6 +42,7 @@ class RunManager():
         self.tb = SummaryWriter(comment = f'-{run}')
 
     def end_run(self):
+        # Getting data for TensorBoard output
         self.tb.add_scalar('Test Set Loss', self.run.loss, self.run.id)
         self.tb.add_scalar('Test Set Accuracy', self.run.acc, self.run.id)
         self.tb.close()
@@ -64,7 +65,7 @@ class RunManager():
         for name, param in self.network.named_parameters():
             self.tb.add_histogram(name, param, self.epoch.id)
             self.tb.add_histogram(f'{name}.grad', param.grad, self.epoch.id)
-
+        # Saving data needed for post training analisis
         results = OrderedDict()
         results['run'] = self.run.id
         results['epoch'] = self.epoch.id
@@ -88,7 +89,7 @@ class RunManager():
     
     def test_track_acc(self, acc):
         self.run.acc = acc
-
+    # Saving data for post testing analysis
     def write_test(self):
         results = OrderedDict()
         results['run'] = ''
@@ -101,7 +102,7 @@ class RunManager():
         results['run duration'] = ''
         for k, v in self.run.params._asdict().items(): results[k] = v
         self.run.data.append(results)
-
+    # Saving data to a csv (for excel analysis) and a json files
     def save(self, fileName):
 
         pd.DataFrame.from_dict(
