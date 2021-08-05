@@ -71,8 +71,8 @@ def train():
     # Hyper rarameters for the network to test
     parameters = OrderedDict(
         lr = [0.0001], # 0.00005, 0.00001
-        batch_size = [200, 250, 400, 750, 1000, 1500, 1875, 2000],
-        epoch_num = [375],
+        batch_size = [2000],
+        epoch_num = [10],
         shuffled = [True],
         num_workers = [4]
     )
