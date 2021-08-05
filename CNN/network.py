@@ -13,6 +13,8 @@ import RunHelper
 torch.set_printoptions(linewidth = 120)
 torch.set_grad_enabled(True)
 
+# Downloads the Fashion MNIST datasets (for training and for testing)
+
 train_set = torchvision.datasets.FashionMNIST(
     root = './data',
     train = True,
@@ -26,7 +28,7 @@ test_set = torchvision.datasets.FashionMNIST(
     download = True,
     transform = transforms.Compose([transforms.ToTensor()])
 )
-
+#Returns the amount of correct model predictions
 def get_num_correct(preds, labels):
     return preds.argmax(dim = 1).eq(labels).sum().item()
 
@@ -40,7 +42,7 @@ def get_all_preds(model, loader):
         preds = model(images)
         all_preds = torch.cat((all_preds, preds), dim = 0)
     return all_preds
-
+# CNN
 class Network(nn.Module):
     def __init__(self):
         super().__init__()
@@ -64,9 +66,9 @@ class Network(nn.Module):
 
         t = self.out(t)
         return t
-
+# Network training function
 def train():
-
+    # Hyper rarameters for the network to test
     parameters = OrderedDict(
         lr = [0.0001], # 0.00005, 0.00001
         batch_size = [200, 250, 400, 750, 1000, 1500, 1875, 2000],
@@ -81,7 +83,7 @@ def train():
     nr_run = 1
     element_product = len(runs)
     keys = list(parameters)
-
+    # Training with specified parameters combination
     for run in runs:
         network = Network().to('cuda')
         loader = torch.utils.data.DataLoader(train_set, batch_size = run.batch_size, shuffle = run.shuffled, num_workers = run.num_workers)
@@ -125,7 +127,7 @@ def train():
                 max[2] = train_total_loss 
             m.end_epoch()
         test_loss, test_acc = test(run, m, test_set)
-
+        # Printing results to console
         for i in range(0, len(run)):
             info += ' ' + keys[i] + ' = ' + str(run[i])
         print('Run', nr_run, 'completed with settings:' + info)
@@ -152,7 +154,7 @@ def train():
         # plt.figure(figsize = (10, 10))
         # plot_confusion_matrix(cmt, names)
         # plt.show()
-
+# Testing model
 def test(run, m, test_set):
 
     test_total_loss = 0
