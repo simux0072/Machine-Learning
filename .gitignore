@@ -1,0 +1,59 @@
+model.pth
+results.json
+results.csv
+.vscode/extensions.json
+.vscode/launch.json
+.vscode/settings.json
+CNN/data.py
+CNN/test.py
+CNN/__pycache__/RunHelper.cpython-38.pyc
+CNN/__pycache__/RunVariables.cpython-38.pyc
+CNN/Resources/__pycache__/plotcm.cpython-38.pyc
+data/FashionMNIST/raw/t10k-images-idx3-ubyte
+data/FashionMNIST/raw/t10k-images-idx3-ubyte.gz
+data/FashionMNIST/raw/t10k-labels-idx1-ubyte
+data/FashionMNIST/raw/t10k-labels-idx1-ubyte.gz
+data/FashionMNIST/raw/train-images-idx3-ubyte
+data/FashionMNIST/raw/train-images-idx3-ubyte.gz
+data/FashionMNIST/raw/train-labels-idx1-ubyte
+data/FashionMNIST/raw/train-labels-idx1-ubyte.gz
+runs/Aug03_16-48-52_D3falt-Run(lr=0.01, batch_size=200, epoch_num=375, shuffled=True, num_workers=4)/events.out.tfevents.1628027332.D3falt.18668.0
+runs/Aug03_17-31-13_D3falt-Run(lr=0.01, batch_size=250, epoch_num=375, shuffled=True, num_workers=4)/events.out.tfevents.1628029873.D3falt.18668.1
+runs/Aug03_18-14-41_D3falt-Run(lr=0.01, batch_size=400, epoch_num=375, shuffled=True, num_workers=4)/events.out.tfevents.1628032481.D3falt.18668.2
+runs/Aug03_18-57-59_D3falt-Run(lr=0.01, batch_size=750, epoch_num=375, shuffled=True, num_workers=4)/events.out.tfevents.1628035079.D3falt.18668.3
+runs/Aug03_19-37-58_D3falt-Run(lr=0.01, batch_size=1000, epoch_num=375, shuffled=True, num_workers=4)/events.out.tfevents.1628037478.D3falt.18668.4
+runs/Aug03_20-10-08_D3falt-Run(lr=0.01, batch_size=1500, epoch_num=375, shuffled=True, num_workers=4)/events.out.tfevents.1628039408.D3falt.18668.5
+runs/Aug03_20-42-13_D3falt-Run(lr=0.01, batch_size=1875, epoch_num=375, shuffled=True, num_workers=4)/events.out.tfevents.1628041333.D3falt.18668.6
+runs/Aug03_21-14-40_D3falt-Run(lr=0.01, batch_size=2000, epoch_num=375, shuffled=True, num_workers=4)/events.out.tfevents.1628043280.D3falt.18668.7
+runs/Aug03_21-47-08_D3falt-Run(lr=0.005, batch_size=200, epoch_num=375, shuffled=True, num_workers=4)/events.out.tfevents.1628045228.D3falt.18668.8
+runs/Aug03_22-20-34_D3falt-Run(lr=0.005, batch_size=250, epoch_num=375, shuffled=True, num_workers=4)/events.out.tfevents.1628047234.D3falt.18668.9
+runs/Aug03_22-52-58_D3falt-Run(lr=0.005, batch_size=400, epoch_num=375, shuffled=True, num_workers=4)/events.out.tfevents.1628049178.D3falt.18668.10
+runs/Aug03_23-24-21_D3falt-Run(lr=0.005, batch_size=750, epoch_num=375, shuffled=True, num_workers=4)/events.out.tfevents.1628051061.D3falt.18668.11
+runs/Aug03_23-55-31_D3falt-Run(lr=0.005, batch_size=1000, epoch_num=375, shuffled=True, num_workers=4)/events.out.tfevents.1628052931.D3falt.18668.12
+runs/Aug04_00-26-46_D3falt-Run(lr=0.005, batch_size=1500, epoch_num=375, shuffled=True, num_workers=4)/events.out.tfevents.1628054806.D3falt.18668.13
+runs/Aug04_00-58-24_D3falt-Run(lr=0.005, batch_size=1875, epoch_num=375, shuffled=True, num_workers=4)/events.out.tfevents.1628056704.D3falt.18668.14
+runs/Aug04_01-30-16_D3falt-Run(lr=0.005, batch_size=2000, epoch_num=375, shuffled=True, num_workers=4)/events.out.tfevents.1628058616.D3falt.18668.15
+runs/Aug04_02-02-25_D3falt-Run(lr=0.001, batch_size=200, epoch_num=375, shuffled=True, num_workers=4)/events.out.tfevents.1628060545.D3falt.18668.16
+runs/Aug04_02-35-35_D3falt-Run(lr=0.001, batch_size=250, epoch_num=375, shuffled=True, num_workers=4)/events.out.tfevents.1628062535.D3falt.18668.17
+runs/Aug04_03-07-42_D3falt-Run(lr=0.001, batch_size=400, epoch_num=375, shuffled=True, num_workers=4)/events.out.tfevents.1628064462.D3falt.18668.18
+runs/Aug04_03-39-10_D3falt-Run(lr=0.001, batch_size=750, epoch_num=375, shuffled=True, num_workers=4)/events.out.tfevents.1628066350.D3falt.18668.19
+runs/Aug04_04-10-33_D3falt-Run(lr=0.001, batch_size=1000, epoch_num=375, shuffled=True, num_workers=4)/events.out.tfevents.1628068233.D3falt.18668.20
+runs/Aug04_04-41-53_D3falt-Run(lr=0.001, batch_size=1500, epoch_num=375, shuffled=True, num_workers=4)/events.out.tfevents.1628070113.D3falt.18668.21
+runs/Aug04_05-13-28_D3falt-Run(lr=0.001, batch_size=1875, epoch_num=375, shuffled=True, num_workers=4)/events.out.tfevents.1628072008.D3falt.18668.22
+runs/Aug04_05-45-19_D3falt-Run(lr=0.001, batch_size=2000, epoch_num=375, shuffled=True, num_workers=4)/events.out.tfevents.1628073919.D3falt.18668.23
+runs/Aug04_06-17-26_D3falt-Run(lr=0.0005, batch_size=200, epoch_num=375, shuffled=True, num_workers=4)/events.out.tfevents.1628075846.D3falt.18668.24
+runs/Aug04_06-50-41_D3falt-Run(lr=0.0005, batch_size=250, epoch_num=375, shuffled=True, num_workers=4)/events.out.tfevents.1628077841.D3falt.18668.25
+runs/Aug04_07-27-46_D3falt-Run(lr=0.0005, batch_size=400, epoch_num=375, shuffled=True, num_workers=4)/events.out.tfevents.1628080066.D3falt.18668.26
+runs/Aug04_08-13-58_D3falt-Run(lr=0.0005, batch_size=750, epoch_num=375, shuffled=True, num_workers=4)/events.out.tfevents.1628082838.D3falt.18668.27
+runs/Aug04_09-00-45_D3falt-Run(lr=0.0005, batch_size=1000, epoch_num=375, shuffled=True, num_workers=4)/events.out.tfevents.1628085645.D3falt.18668.28
+runs/Aug04_09-40-51_D3falt-Run(lr=0.0005, batch_size=1500, epoch_num=375, shuffled=True, num_workers=4)/events.out.tfevents.1628088051.D3falt.18668.29
+runs/Aug04_10-21-23_D3falt-Run(lr=0.0005, batch_size=1875, epoch_num=375, shuffled=True, num_workers=4)/events.out.tfevents.1628090483.D3falt.18668.30
+runs/Aug04_11-02-24_D3falt-Run(lr=0.0005, batch_size=2000, epoch_num=375, shuffled=True, num_workers=4)/events.out.tfevents.1628092944.D3falt.18668.31
+runs/Aug04_18-02-04_D3falt-Run(lr=0.0001, batch_size=200, epoch_num=375, shuffled=True, num_workers=4)/events.out.tfevents.1628118124.D3falt.15908.0
+runs/Aug04_18-36-48_D3falt-Run(lr=0.0001, batch_size=250, epoch_num=375, shuffled=True, num_workers=4)/events.out.tfevents.1628120208.D3falt.15908.1
+runs/Aug04_19-10-27_D3falt-Run(lr=0.0001, batch_size=400, epoch_num=375, shuffled=True, num_workers=4)/events.out.tfevents.1628122227.D3falt.15908.2
+runs/Aug04_19-42-45_D3falt-Run(lr=0.0001, batch_size=750, epoch_num=375, shuffled=True, num_workers=4)/events.out.tfevents.1628124165.D3falt.15908.3
+runs/Aug04_20-14-30_D3falt-Run(lr=0.0001, batch_size=1000, epoch_num=375, shuffled=True, num_workers=4)/events.out.tfevents.1628126070.D3falt.15908.4
+runs/Aug04_20-46-14_D3falt-Run(lr=0.0001, batch_size=1500, epoch_num=375, shuffled=True, num_workers=4)/events.out.tfevents.1628127974.D3falt.15908.5
+runs/Aug04_21-18-09_D3falt-Run(lr=0.0001, batch_size=1875, epoch_num=375, shuffled=True, num_workers=4)/events.out.tfevents.1628129889.D3falt.15908.6
+runs/Aug04_21-50-18_D3falt-Run(lr=0.0001, batch_size=2000, epoch_num=375, shuffled=True, num_workers=4)/events.out.tfevents.1628131818.D3falt.15908.7
